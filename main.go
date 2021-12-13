@@ -7,6 +7,7 @@ func main() {
 	fmt.Println(Sub(3, 2))
 	fmt.Println(Mul(3, 2))
 	fmt.Println(Div(3, 2))
+	fmt.Println(Sqr(3))
 }
 
 func Add(a, b int) int {
@@ -23,4 +24,8 @@ func Mul(a, b int) int {
 
 func Div(a, b int) int {
 	return a / b
+}
+
+func Sqr(a int) int {
+	return a * a
 }
