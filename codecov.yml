@@ -7,7 +7,7 @@ coverage:
     patch:
       default:
         target: 90%
-        informational: true
+        only_pulls: true
 
 github_checks:
-  annotations: true
+  annotations: false
